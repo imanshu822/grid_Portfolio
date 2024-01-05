@@ -68,15 +68,18 @@ body {
 @media screen and (max-width: 1024px) {
   .container {
     flex-direction: column;
-    padding-block: 20px;
   }
   .gallery {
+    padding-top: 30px;
     width: 100%;
-    padding-inline: 12px;
-    grid-auto-rows: 220px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .container {
+    padding: 0 20px;
   }
   .box {
-    grid-row: span 1;
+    grid-row: span 2;
     grid-column: span 3;
   }
 }
